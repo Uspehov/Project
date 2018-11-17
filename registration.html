@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/registr.css">
+
+	</head>
+	<body>
+
+<section >
+	 
+<div class=centre>
+	<div class=flex-row>
+		
+		   <form id="register-form"> 
+		   	<h1>Registration</h1>
+		   	<h2 id=warn></h2>
+            <input id="logg" type="text" placeholder="Name" value="">
+            <input id="pass" type="password" placeholder="Password" value="">
+            <input id="rgstr_btn" type="button" value="Get Account" onclick="store();"> 
+        </form>
+
+        <form id="login-form"> 
+        	<h1>Login</h1>
+        	<h2 id=warn-log></h2>
+            <input id="userLogg" type="text" placeholder="Enter Username" value="">
+            <input id="userPass" type="password" placeholder="Enter Password" value="">
+            <input id="login_btn" type="button" value="Login" onclick="check();"> 
+       </form>
+
+   
+   
+</div></div>
+<div class="flex-but">
+<div class='redirect' onclick="location.href = 'base.html';">
+	<a   >Return</a></div></div>
+</section>
+
+
+
+
+<script type="text/javascript" language="javascript" src="login.js"></script>
+
+	</body>
+	</html>	

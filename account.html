@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Account</title>
+	<link rel="stylesheet" href="css/acc.css">
+
+</head>
+<body>
+
+<section class=menuback>
+
+	<ul class=flex-row>
+
+		<li><a class=button href="base.html#second-section">Home</a></li>
+		<li><a class=button href="base.html#team">Team</a></li>
+		<li><a class=button href="booking.html">Booking</a></li>		
+		<li><a class=button href="base.html#contact">Contact us</a></li>
+		<li><a class=button onclick="logOut();">Log out</a></li>
+	</ul>
+</section>
+
+
+<section class=osnova>
+	<div class=right >You may book <span id=book_left></span> more visits this week.</div>
+	<h2>You are logged as <span id=current_user_name>dfdf</span></h2>
+
+    <div>You are with us since <span id=date_of_reg>dfdf</span></div>
+    <div class=book_container>
+    	<h2>You have booked following:</h2>
+    	<ul id = first></ul>
+    	<ul id = second></ul>
+    	<ul id = third></ul>    
+    </div>
+    
+<div id=pop_mess class=popup>
+	
+<form action="" method="post">
+    <p><b>Enter your messadge</b></p>
+    <p><textarea id="info" rows="10" cols="45" name="text"></textarea></p>
+    <p><input type="submit" value="Send" onclick='send_mes()'></p>
+    <p><input type="submit" value="Cancel" onclick='mes_close()'></p>
+  </form>
+</div>
+<div class=send>You can always share your experience and thoughts</div>
+<div class="flex-but">
+
+<a class=send_messedge onclick="appear()">Write a messedge to administration</a></div>
+
+
+
+</section>
+
+
+<script type="text/javascript" language="javascript" src="profile.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,142 @@
+body{margin:0%;
+padding:0%;
+background: url(../img/35.jpg) no-repeat center /cover;
+margin:0;
+font-family: 'Carrois Gothic SC', sans-serif;}
+
+.main{width: 80%;
+margin:0% 10%;
+padding:0px;
+background-color: rgba(0,  0, 0, 0.85);}
+
+h1{text-align: center;
+margin-top: 80px;
+font-size: 60px;
+color: white;}
+
+h2{color: white;}
+
+section{width: 80%;
+padding:0px;
+padding-top: 50px;
+margin:0% 10%;
+border-bottom: 5px solid #9a7845;
+padding-bottom: 30px;}
+
+.first{//margin-left: 70px;
+width: 250px;
+margin-top: 0px;}
+
+select{
+font-size: 20px;}
+
+.second{//margin-left: 150px;
+margin-top: 0px;
+width: 300px;}
+
+.third{//margin-left: 150px;
+margin-top: 0px;
+width: 250px;}
+
+
+.top-menu{background-color: rgba(0,  0, 0, 0.85);
+border-bottom: 2px white solid;
+width: 100%;
+position: fixed;}
+
+.flex-row{display: flex;
+margin-top: 0;
+justify-content: space-between;
+flex-direction: row;
+margin: 0% 0%;}
+
+.flex-row li{
+display: block;
+cursor: pointer;}
+
+.bold{font-weight:bold;}
+
+.flex-row a{
+font-size: 22px;
+text-decoration: none;
+color: white;}
+
+.button{display: block;
+text-align:center;
+height: 110px;
+padding: 40px;
+box-sizing: border-box;}
+
+.choice{display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+width: 100%;
+flex-direction: row;}
+
+input{font-size: 30px;
+padding: 10px;
+width: 200px;
+margin-top: 30px;}
+
+.flex-but{
+display: flex;
+justify-content: center;}
+
+.day_of_week{border-bottom: 5px solid #9a7845;
+background-color: rgba(0,  0, 0, 0.85);
+//background-color: red;
+//width: 80%;}
+
+.day_of_week h1{margin-top: 0%;}
+
+.day{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+//justify-content: space-between;
+padding: 0%;
+padding-bottom: 7%;}
+
+.day h1{font-size: 40px;}
+
+.day ul{font-size: 25px;}
+
+.day li{display: block;}
+
+.flex-element{color: white;}
+
+.button:hover { 
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color: rgba(0,  0, 0, 0.15);
+  color:#108abe;}
+
+.top-menu > li:hover .flex-element{display: block;}
+
+.popup{
+position:absolute;
+position:fixed;
+top:33%;
+left:33%;
+width: 600px;
+height: 200px;
+background-color: black;
+padding:20px 20px;
+display: none;
+text-align: center;
+border:3px solid white;}
+
+.popup h1{margin:30px;
+font-size:45px;}
+
+.popup p {color: white;
+font-size:20px;}
+
+.popup a{cursor: pointer;
+display: block;
+text-align:center;
+margin-left: 20%;
+padding: 10px 0px;
+width: 340px;
+background-color: yellow;}

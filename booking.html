@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Booking</title>
+	<link rel="stylesheet" href="css/bookin.css">
+</head>
+<body>
+
+	<div class=top-menu>
+		<ul class=flex-row>
+        <li><a class='button bold' onclick="location.href = 'base.html';">Home</a></li>
+		<li><a class=button href="#1">Monday</a></li>
+		<li><a class=button href="#2">Tuesday</a></li>
+		<li><a class=button href="#3">Wednesday</a></li>
+		<li><a class=button href="#4">Thursday</a></li>		
+		<li><a class=button href="#5">Friday</a></li>
+		<li><a class=button href="#6">Saturday</a></li>		
+			</ul>
+</div>
+<div class=main>
+<section>
+	<h1>Book here</h1>
+	<div class=choice>
+		<div>
+	<h2 class=first>Day of the week</h2>
+
+	<select id=days class=first>
+
+  <option value="Monday">Monday</option>
+  <option value="Tuesday">Tuesday</option>
+  <option value="Wednesday">Wednesday</option>
+  <option value="Thursday">Thursday</option>
+  <option value="Friday">Friday</option>
+  <option value="Saturday">Saturday</option>
+  <option value="Sunday">Sunday</option>
+</select>
+
+</div>
+<div >
+	<h2 class=second>Master</h2>
+	<select id=master class=second>
+
+  <option value="Cj">CJ (Barbering)</option>
+  <option value="OldBoss">Old Boss (Hairdressing)</option>
+  <option value="Lucas">Lucas (Full stack)</option>
+  <option value="Markus">Markus (Tattoo)</option>
+
+</select>
+
+</div>
+		<div >
+	<h2 class=third>Time</h2>
+
+	<select id=time class=third>
+
+  <option value="10.00">10.00</option>
+  <option value="11.00">11.00</option>
+  <option value="12.00">12.00</option>
+  <option value="13.00">13.00</option>
+  <option value="14.00">14.00</option>
+  <option value="15.00">15.00</option>
+  <option value="16.00">16.00</option>
+  <option value="17.00">17.00</option>
+  
+  </select></div>
+</div>
+<disv class=flex-but>
+<input id="rgstr_btn" type="submit" value="Submit" onclick="func();"></div>
+</section>
+
+<div  id=main>
+<section class=day_of_week id=1><h1>Monday</h1>
+	<div class="day" id="Monday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=MondayCj10.00>10.00.....................Free</li>
+		<li id=MondayCj11.00>11.00.....................Free</li>
+		<li id=MondayCj12.00>12.00.....................Free</li>
+		<li id=MondayCj13.00>13.00.....................Free</li>
+		<li id=MondayCj14.00>14.00.....................Free</li>
+		<li id=MondayCj15.00>15.00.....................Free</li>
+		<li id=MondayCj16.00>16.00.....................Free</li>
+		<li id=MondayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=MondayOldBoss10.00>10.00.....................Free</li>		
+		<li id=MondayOldBoss11.00>11.00.....................Free</li>
+		<li id=MondayOldBoss12.00>12.00.....................Free</li>
+		<li id=MondayOldBoss13.00>13.00.....................Free</li>
+		<li id=MondayOldBoss14.00>14.00.....................Free</li>
+		<li id=MondayOldBoss15.00>15.00.....................Free</li>
+		<li id=MondayOldBoss16.00>16.00.....................Free</li>
+		<li id=MondayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=MondayLucas10.00>10.00.....................Free</li>
+		<li id=MondayLucas11.00>11.00.....................Free</li>
+		<li id=MondayLucas12.00>12.00.....................Free</li>
+		<li id=MondayLucas13.00>13.00.....................Free</li>
+		<li id=MondayLucas14.00>14.00.....................Free</li>
+		<li id=MondayLucas15.00>15.00.....................Free</li>
+		<li id=MondayLucas16.00>16.00.....................Free</li>
+		<li id=MondayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=MondayMarkus10.00>10.00.....................Free</li>
+		<li id=MondayMarkus11.00>11.00.....................Free</li>
+		<li id=MondayMarkus12.00>12.00.....................Free</li>
+		<li id=MondayMarkus13.00>13.00.....................Free</li>
+		<li id=MondayMarkus14.00>14.00.....................Free</li>
+		<li id=MondayMarkus15.00>15.00.....................Free</li>
+		<li id=MondayMarkus16.00>16.00.....................Free</li>
+		<li id=MondayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+<section class=day_of_week id=2><h1>Tuesday</h1>
+	<div class="day" id="Tuesday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=TuesdayCj10.00>10.00.....................Free</li>
+		<li id=TuesdayCj11.00>11.00.....................Free</li>
+		<li id=TuesdayCj12.00>12.00.....................Free</li>
+		<li id=TuesdayCj13.00>13.00.....................Free</li>
+		<li id=TuesdayCj14.00>14.00.....................Free</li>
+		<li id=TuesdayCj15.00>15.00.....................Free</li>
+		<li id=TuesdayCj16.00>16.00.....................Free</li>
+		<li id=TuesdayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=TuesdayOldBoss10.00>10.00.....................Free</li>		
+		<li id=TuesdayOldBoss11.00>11.00.....................Free</li>
+		<li id=TuesdayOldBoss12.00>12.00.....................Free</li>
+		<li id=TuesdayOldBoss13.00>13.00.....................Free</li>
+		<li id=TuesdayOldBoss14.00>14.00.....................Free</li>
+		<li id=TuesdayOldBoss15.00>15.00.....................Free</li>
+		<li id=TuesdayOldBoss16.00>16.00.....................Free</li>
+		<li id=TuesdayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=TuesdayLucas10.00>10.00.....................Free</li>
+		<li id=TuesdayLucas11.00>11.00.....................Free</li>
+		<li id=TuesdayLucas12.00>12.00.....................Free</li>
+		<li id=TuesdayLucas13.00>13.00.....................Free</li>
+		<li id=TuesdayLucas14.00>14.00.....................Free</li>
+		<li id=TuesdayLucas15.00>15.00.....................Free</li>
+		<li id=TuesdayLucas16.00>16.00.....................Free</li>
+		<li id=TuesdayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=TuesdayMarkus10.00>10.00.....................Free</li>
+		<li id=TuesdayMarkus11.00>11.00.....................Free</li>
+		<li id=TuesdayMarkus12.00>12.00.....................Free</li>
+		<li id=TuesdayMarkus13.00>13.00.....................Free</li>
+		<li id=TuesdayMarkus14.00>14.00.....................Free</li>
+		<li id=TuesdayMarkus15.00>15.00.....................Free</li>
+		<li id=TuesdayMarkus16.00>16.00.....................Free</li>
+		<li id=TuesdayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+<section class=day_of_week id=3><h1>Wednesday</h1>
+	<div class="day" id="Wednesday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=WednesdayCj10.00>10.00.....................Free</li>
+		<li id=WednesdayCj11.00>11.00.....................Free</li>
+		<li id=WednesdayCj12.00>12.00.....................Free</li>
+		<li id=WednesdayCj13.00>13.00.....................Free</li>
+		<li id=WednesdayCj14.00>14.00.....................Free</li>
+		<li id=WednesdayCj15.00>15.00.....................Free</li>
+		<li id=WednesdayCj16.00>16.00.....................Free</li>
+		<li id=WednesdayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=WednesdayOldBoss10.00>10.00.....................Free</li>		
+		<li id=WednesdayOldBoss11.00>11.00.....................Free</li>
+		<li id=WednesdayOldBoss12.00>12.00.....................Free</li>
+		<li id=WednesdayOldBoss13.00>13.00.....................Free</li>
+		<li id=WednesdayOldBoss14.00>14.00.....................Free</li>
+		<li id=WednesdayOldBoss15.00>15.00.....................Free</li>
+		<li id=WednesdayOldBoss16.00>16.00.....................Free</li>
+		<li id=WednesdayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=WednesdayLucas10.00>10.00.....................Free</li>
+		<li id=WednesdayLucas11.00>11.00.....................Free</li>
+		<li id=WednesdayLucas12.00>12.00.....................Free</li>
+		<li id=WednesdayLucas13.00>13.00.....................Free</li>
+		<li id=WednesdayLucas14.00>14.00.....................Free</li>
+		<li id=WednesdayLucas15.00>15.00.....................Free</li>
+		<li id=WednesdayLucas16.00>16.00.....................Free</li>
+		<li id=WednesdayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=WednesdayMarkus10.00>10.00.....................Free</li>
+		<li id=WednesdayMarkus11.00>11.00.....................Free</li>
+		<li id=WednesdayMarkus12.00>12.00.....................Free</li>
+		<li id=WednesdayMarkus13.00>13.00.....................Free</li>
+		<li id=WednesdayMarkus14.00>14.00.....................Free</li>
+		<li id=WednesdayMarkus15.00>15.00.....................Free</li>
+		<li id=WednesdayMarkus16.00>16.00.....................Free</li>
+		<li id=WednesdayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+
+<section class=day_of_week id=4><h1>Thursday</h1>
+	<div class="day" id="Thursday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=ThursdayCj10.00>10.00.....................Free</li>
+		<li id=ThursdayCj11.00>11.00.....................Free</li>
+		<li id=ThursdayCj12.00>12.00.....................Free</li>
+		<li id=ThursdayCj13.00>13.00.....................Free</li>
+		<li id=ThursdayCj14.00>14.00.....................Free</li>
+		<li id=ThursdayCj15.00>15.00.....................Free</li>
+		<li id=ThursdayCj16.00>16.00.....................Free</li>
+		<li id=ThursdayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=ThursdayOldBoss10.00>10.00.....................Free</li>		
+		<li id=ThursdayOldBoss11.00>11.00.....................Free</li>
+		<li id=ThursdayOldBoss12.00>12.00.....................Free</li>
+		<li id=ThursdayOldBoss13.00>13.00.....................Free</li>
+		<li id=ThursdayOldBoss14.00>14.00.....................Free</li>
+		<li id=ThursdayOldBoss15.00>15.00.....................Free</li>
+		<li id=ThursdayOldBoss16.00>16.00.....................Free</li>
+		<li id=ThursdayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=ThursdayLucas10.00>10.00.....................Free</li>
+		<li id=ThursdayLucas11.00>11.00.....................Free</li>
+		<li id=ThursdayLucas12.00>12.00.....................Free</li>
+		<li id=ThursdayLucas13.00>13.00.....................Free</li>
+		<li id=ThursdayLucas14.00>14.00.....................Free</li>
+		<li id=ThursdayLucas15.00>15.00.....................Free</li>
+		<li id=ThursdayLucas16.00>16.00.....................Free</li>
+		<li id=ThursdayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=ThursdayMarkus10.00>10.00.....................Free</li>
+		<li id=ThursdayMarkus11.00>11.00.....................Free</li>
+		<li id=ThursdayMarkus12.00>12.00.....................Free</li>
+		<li id=ThursdayMarkus13.00>13.00.....................Free</li>
+		<li id=ThursdayMarkus14.00>14.00.....................Free</li>
+		<li id=ThursdayMarkus15.00>15.00.....................Free</li>
+		<li id=ThursdayMarkus16.00>16.00.....................Free</li>
+		<li id=ThursdayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+
+<section class=day_of_week id=5><h1>Friday</h1>
+	<div class="day" id="Friday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=FridayCj10.00>10.00.....................Free</li>
+		<li id=FridayCj11.00>11.00.....................Free</li>
+		<li id=FridayCj12.00>12.00.....................Free</li>
+		<li id=FridayCj13.00>13.00.....................Free</li>
+		<li id=FridayCj14.00>14.00.....................Free</li>
+		<li id=FridayCj15.00>15.00.....................Free</li>
+		<li id=FridayCj16.00>16.00.....................Free</li>
+		<li id=FridayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=FridayOldBoss10.00>10.00.....................Free</li>		
+		<li id=FridayOldBoss11.00>11.00.....................Free</li>
+		<li id=FridayOldBoss12.00>12.00.....................Free</li>
+		<li id=FridayOldBoss13.00>13.00.....................Free</li>
+		<li id=FridayOldBoss14.00>14.00.....................Free</li>
+		<li id=FridayOldBoss15.00>15.00.....................Free</li>
+		<li id=FridayOldBoss16.00>16.00.....................Free</li>
+		<li id=FridayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=FridayLucas10.00>10.00.....................Free</li>
+		<li id=FridayLucas11.00>11.00.....................Free</li>
+		<li id=FridayLucas12.00>12.00.....................Free</li>
+		<li id=FridayLucas13.00>13.00.....................Free</li>
+		<li id=FridayLucas14.00>14.00.....................Free</li>
+		<li id=FridayLucas15.00>15.00.....................Free</li>
+		<li id=FridayLucas16.00>16.00.....................Free</li>
+		<li id=FridayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=FridayMarkus10.00>10.00.....................Free</li>
+		<li id=FridayMarkus11.00>11.00.....................Free</li>
+		<li id=FridayMarkus12.00>12.00.....................Free</li>
+		<li id=FridayMarkus13.00>13.00.....................Free</li>
+		<li id=FridayMarkus14.00>14.00.....................Free</li>
+		<li id=FridayMarkus15.00>15.00.....................Free</li>
+		<li id=FridayMarkus16.00>16.00.....................Free</li>
+		<li id=FridayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+<section class=day_of_week id=6><h1>Saturday</h1>
+	<div class="day" id="Saturday">
+	<div id='Cj' class="flex-element"><h1>Cj</h1>
+		<ul>			
+		<li id=SaturdayCj10.00>10.00.....................Free</li>
+		<li id=SaturdayCj11.00>11.00.....................Free</li>
+		<li id=SaturdayCj12.00>12.00.....................Free</li>
+		<li id=SaturdayCj13.00>13.00.....................Free</li>
+		<li id=SaturdayCj14.00>14.00.....................Free</li>
+		<li id=SaturdayCj15.00>15.00.....................Free</li>
+		<li id=SaturdayCj16.00>16.00.....................Free</li>
+		<li id=SaturdayCj17.00>17.00.....................Free</li>
+		</ul>
+	</div>
+
+
+	<div id='OldBoss' class="flex-element"><h1>Old Boss</h1>
+		<ul>
+		<li id=SaturdayOldBoss10.00>10.00.....................Free</li>		
+		<li id=SaturdayOldBoss11.00>11.00.....................Free</li>
+		<li id=SaturdayOldBoss12.00>12.00.....................Free</li>
+		<li id=SaturdayOldBoss13.00>13.00.....................Free</li>
+		<li id=SaturdayOldBoss14.00>14.00.....................Free</li>
+		<li id=SaturdayOldBoss15.00>15.00.....................Free</li>
+		<li id=SaturdayOldBoss16.00>16.00.....................Free</li>
+		<li id=SaturdayOldBoss17.00>17.00.....................Free</li>
+	</ul></div>
+	<div id='Lucas' class="flex-element"><h1>Lucas</h1><ul>
+
+		<li id=SaturdayLucas10.00>10.00.....................Free</li>
+		<li id=SaturdayLucas11.00>11.00.....................Free</li>
+		<li id=SaturdayLucas12.00>12.00.....................Free</li>
+		<li id=SaturdayLucas13.00>13.00.....................Free</li>
+		<li id=SaturdayLucas14.00>14.00.....................Free</li>
+		<li id=SaturdayLucas15.00>15.00.....................Free</li>
+		<li id=SaturdayLucas16.00>16.00.....................Free</li>
+		<li id=SaturdayLucas17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	<div id='Markus' class="flex-element"><h1>Markus</h1>
+		<ul>
+		
+		<li id=SaturdayMarkus10.00>10.00.....................Free</li>
+		<li id=SaturdayMarkus11.00>11.00.....................Free</li>
+		<li id=SaturdayMarkus12.00>12.00.....................Free</li>
+		<li id=SaturdayMarkus13.00>13.00.....................Free</li>
+		<li id=SaturdayMarkus14.00>14.00.....................Free</li>
+		<li id=SaturdayMarkus15.00>15.00.....................Free</li>
+		<li id=SaturdayMarkus16.00>16.00.....................Free</li>
+		<li id=SaturdayMarkus17.00>17.00.....................Free</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+
+
+
+
+</div>
+
+
+
+<div id=pop_mess class=popup>
+
+</div>
+</div>
+</div>
+
+<script type="text/javascript" language="javascript" src="booking.js"></script>
+</body>
+</html>
